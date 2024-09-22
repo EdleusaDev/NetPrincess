@@ -12,7 +12,7 @@
 /* Elementos base */
 html, body {
     height: 100%; /* Garante que html e body ocupem toda a altura da viewport */
-    overflow: hidden; /* Impede a rolagem vertical */
+    overflow-x: hidden; /* Impede a rolagem horizontal */
     background: var(--preta);
     font-family: 'Arial', Times, serif;
     color: white;
@@ -70,7 +70,7 @@ header nav a:hover {
 }
 
 .botao {
-    background-color: rgba(0, 0, 0, .50);
+    background-color: rgba(0, 0, 0, 0.50);
     border: none;
     color: white;
     padding: 15px 30px;
@@ -103,6 +103,8 @@ header nav a:hover {
     display: block;
 }
 
+/* Carrossel */
 .carrossel-filmes {
-    margin-top: 0; /* Ajuste para evitar empurrar o layout */
+    margin-top: 20px; /* Espaço entre o filme principal e o carrossel */
 }
+
