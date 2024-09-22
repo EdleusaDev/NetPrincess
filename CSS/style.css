@@ -51,8 +51,8 @@ header nav a:hover{
 	align-items: flex-start;
 }
 .filme-principal .descricao{
-	margin-top: 10px;/*dobrei o valor do modelo*/
-	margin-bottom: 40px;/*dobrei o valor do modelo*/
+	margin-top: 5px;/*alterei novamente de 10 para 5*/
+	margin-bottom: 20px;/*alterei novamente de 40 para 20*/
 }
 .filme-principal .titulo{
 	margin-top: 15%;
