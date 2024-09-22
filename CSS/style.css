@@ -48,7 +48,7 @@ header nav a:hover {
     font-size: 16px;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/capa1.jpg');
     
-    height: 100vh; /* Ocupa toda a altura da viewport */
+    min-height: 100vh; /* Usa min-height para garantir que ocupa pelo menos a altura da viewport */
     background-size: cover; /* Mantém a proporção da imagem */
     background-position: center; /* Centraliza a imagem */
     
@@ -103,6 +103,11 @@ header nav a:hover {
     display: block;
 }
 
+/* Carrossel */
+.carrossel-filmes {
+    margin-top: 20px; /* Espaço entre o filme principal e o carrossel */
+    padding-bottom: 20px; /* Espaço inferior para o carrossel */
+}
 /* Carrossel */
 .carrossel-filmes {
     margin-top: 20px; /* Espaço entre o filme principal e o carrossel */
