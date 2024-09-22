@@ -42,7 +42,7 @@ header nav a:hover{
 	font-size: 16px;
 	background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%),url('../img/capa1.jpg');
 	
-	height:600px;/*dobrei o valor de 400 para 900 pq a foto estava saindo pela metade*/
+	height:400px;
 	background-size:cover;
 	
 	display: flex;
@@ -91,5 +91,5 @@ header nav a:hover{
 	
 }
 .carrossel-filmes{
-	margin-top: 5px;
+	margin-top: 10px;
 }
