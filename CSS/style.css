@@ -53,8 +53,8 @@ header nav a:hover{
 	overflow: hidden; /* Esconde qualquer parte que exceda a altura */
 }
 .filme-principal .descricao{
-	margin-top: 5px; /* Ajuste conforme necessário */
-	margin-bottom: 20px; /* Ajuste conforme necessário *
+	margin-top: 10px; /* Ajuste conforme necessário */
+	margin-bottom: 40px; /* Ajuste conforme necessário *
 }
 .filme-principal .titulo{
 	margin-top: 15%;
