@@ -12,7 +12,8 @@ body{
 	background:var(--preta);
 	font-family:'Arial', Times, serif;
 	color: white;
-	overflow-x: hidden; /* Impede rolagem horizontal */
+	height: 100vh; /* Define a altura do body */
+	overflow: hidden; /* Impede rolagem vertical */
 }
 
 header .container{
@@ -43,7 +44,7 @@ header nav a:hover{
 	font-size: 16px;
 	background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%),url('../img/capa1.jpg');
 	
-	mini-height:600px;
+	mini-height:70vh;
 	background-size:cover;
 	background-position: center; /* Centraliza a imagem */
 	display: flex;
