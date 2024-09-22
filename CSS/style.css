@@ -48,7 +48,7 @@ header nav a:hover {
     font-size: 16px;
     background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('../img/capa1.jpg');
     
-    min-height: 70vh; /* Permite que a altura se ajuste à tela */
+    min-height: 100vh; /* Permite que a altura se ajuste à tela */
     background-size: cover;
     background-position: center;
     
