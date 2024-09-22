@@ -43,17 +43,18 @@ header nav a:hover{
 	font-size: 16px;
 	background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%),url('../img/capa1.jpg');
 	
-	height:400px;
+	height:70vh;
 	background-size:cover;
-	
+	background-position: center; /* Centraliza a imagem */
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
+	overflow: hidden; /* Esconde qualquer parte que exceda a altura */
 }
 .filme-principal .descricao{
-	margin-top: 10px;/*alterei novamente de 10 para 5, mas fico ruim*/
-	margin-bottom: 40px;/*alterei novamente de 40 para 20, voltei para o qe estava antes*/
+	margin-top: 5px; /* Ajuste conforme necessário */
+	margin-bottom: 20px; /* Ajuste conforme necessário *
 }
 .filme-principal .titulo{
 	margin-top: 15%;
